@@ -28,7 +28,7 @@ namespace BSQueue
 
                 if (Directory.GetFiles(Folder_Source, "*.xml").Length == 0) return; // no files
 
-                //Message queue
+                //Message queue tst
  
                 MessageQueue myMsgQ = new MessageQueue(@msg_QueueIN, false, true);
 
